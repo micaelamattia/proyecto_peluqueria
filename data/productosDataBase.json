@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "name": "Maquina de corte",
+        "price": 3500,
+        "discount": 30,
+        "category": "Herramienta" ,
+        "description": "Maquina de corte profecional inalambrica",
+        "image": "Maquina.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "Cepillo",
+        "price": 3560,
+        "discount": 30,
+        "category": "Accesorios" ,
+        "description": "kit de cepillos profecional",
+        "image": "kit-cepillos.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": "Shampu",
+        "price": 300,
+        "discount": 30,
+        "category": "Productos" ,
+        "description": "Tratamiento intensivo para reparacion de cabello",
+        "image": "productos.jpg"
+    },
+
+    {
+        "id": 4,
+        "name": "tijera",
+        "price": 2000,
+        "discount": 30,
+        "category": "herramienta" ,
+        "description": "tijera profecional filo navaja",
+        "image": "logoo.jpg"
+    }
+
+]
+
