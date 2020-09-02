@@ -1,74 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Salon Ultra</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="./stylesheets/style.css">
-</head>
+
+<%- include('partials/head') %> 
+
 <body>
-  <header>
-    <!--caja pincipal-->
-    <div class="container">
-      
-      <!--caja row-->
-      <div class="row">
 
-        <!--cajas contenedoras de tamaños-->
-        <div class="col-4 col-md-2">
-          <a href=""><img src="./images/logoo.jpg" alt="" width="90%"></a>
-        </div>
-
-        <div class="col-8 col-md-5">
-          <form action="">
-            <input type="text" placeholder="buscar">
-            <button type="submit"><i class="fas fa-search"></i></button>
-          </form>
-
-        </div>
-
-        <div class="col-12 col-md-5 cuotas">
-          <a href="" class="cuotas"><i class="fas fa-hand-holding-usd"> Comprá en cuotas y sin tarjeta de crédito</i></a>
-        </div>
-
-      </div>
-
-     <!--barra de navegación-->
-      <nav class="navbar-expand-md">
-        <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i>
-        </button>
-
-       <!--caja contenedora de menú-->
-       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <!--lista-->
-          <ul class="navbar-nav mr-auto">
-             <li><a href="">Ofertas</a></li>
-             <li><a href="">Vender</a></li>
-             <li><a href="">Tiendas Oficiales</a></li>
-             <li><a href="">Ayuda</a></li>
-          </ul>
-
-          <!--otra lista-->
-          <ul class='navbar-nav'>
-             <li><a href="">Creá tu cuenta<i class="far fa-address-card"></i></a></li>
-             <li><a href="">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
-             <li><a href="">Mis compras<i class="fas fa-shopping-basket"></i></a></li>
-          </ul>
-
-        </div>
-
-      </nav>
-    </div>
-  </header>
-
-   <!--seccion banner-->
-  <div class="banner col-12">
-    <section class="">
-      <img src="./images/banner3.jpg" alt="" width="100%">
-    </section>
-  </div>
+<%- include('partials/header') %> 
 
   <!--seccion productos-->
   <section class="container-fluid px-4">
@@ -121,48 +58,6 @@
 
   </section>
 
-  <!--pie de pagina-->
-  <footer class="container-fluid">
-    <div class="row footer">
-
-      <div class="col-12 col-lg-4">
-        <article>
-          <i class="fas fa-credit-card"></i>
-          <h4>Pagá con tarjeta o efectivo</h4>
-          <p>Nuestros clientes tienen cuotas sin interes pagando con tarjetas o en efectivo, y siempre es seguro.</p>
-        </article>
-      </div>
-
-      <div class="col-12 col-lg-4">
-        <article>
-          <i class="fas fa-gift"></i>
-          <h4>Envio gratis desde $1.999</h4>
-          <p>Nuestros clientes tienen cuotas sin interes pagando con tarjetas o en efectivo, y siempre es seguro.</p>
-        </article>
-      </div>
-
-
-      <div class="col-12 col-lg-4">
-        <article>
-          <i class="fas fa-user-shield"></i>
-          <h4>Seguridad de principio a fin</h4>
-          <p>Nuestros clientes tienen cuotas sin interes pagando con tarjetas o en efectivo, y siempre es seguro.</p>
-        </article>
-      </div>
-
-      <div class="col-12 copy">
-        Saludos coordiales.
-
-      </div>
-
-
-    </div>
-
-  </footer>
-
-  <!--scrip boopstrp-->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  
+  <%- include('partials/footer') %> 
 </body>
 </html>
