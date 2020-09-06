@@ -37,6 +37,45 @@
         "category": "in-sale" ,
         "description": "Sillon hidraulico",
         "image": "silllon.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Tintura",
+        "price": 3500,
+        "discount": 30,
+        "category": "visited" ,
+        "description": "Tintura super cubritiva",
+        "image": "tintura.jpg"
+    },
+
+    {
+        "id": 6,
+        "name": "Shampu",
+        "price": 3560,
+        "discount": 30,
+        "category": "in-sale" ,
+        "description": "Shampu especial",
+        "image": "shampu.jpg"
+    },
+
+    {
+        "id": 7,
+        "name": "Shampu",
+        "price": 300,
+        "discount": 30,
+        "category": "visited" ,
+        "description": "Tratamiento intensivo para reparacion de cabello",
+        "image": "productos.jpg"
+    },
+
+    {
+        "id": 8,
+        "name": "Sillon",
+        "price": 2000,
+        "discount": 30,
+        "category": "in-sale" ,
+        "description": "Sillon hidraulico",
+        "image": "silllon.jpg"
     }
 
 ]
